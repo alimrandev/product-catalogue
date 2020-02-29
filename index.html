@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Catalogue</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/32ba4aeb6f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-dark bg-dark mt-4 d-flex">
+      <h1 class="navbar-brand m-auto">Product Catalogue</h1>
+      <input class="form-control m-3" type="text" name="filter" id="filter" placeholder="Filter your product">
+    </nav>
+    <div class="card">
+      <div class="card-body">
+        <ul class="list-group collection">
+          <!-- <li class="list-group-item collection-item"><strong>Snakers</strong>- <span class="price">$20</span><input type="hidden" data-id=""> <i
+              class="fas fa-trash float-right delete"></i>
+          </li> -->
+        </ul>
+        <form id="input-form" class="mt-4">
+          <div class="row">
+            <div class="col">
+              <input type="text" name="" id="product-name" class="form-control" placeholder="Product Name">
+            </div>
+            <div class="col">
+              <input type="text" name="" id="product-price" class="form-control" placeholder="Product Price">
+            </div>
+          </div>
+          <button class="btn btn-success btn-block mt-3" id="submit">Submit</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+  <script src="appOOP.js"></script>
+</body>
+
+</html>
